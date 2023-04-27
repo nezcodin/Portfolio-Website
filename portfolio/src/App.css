@@ -3,9 +3,11 @@
   flex-direction: column;
   align-items: center;
   background-color: gray;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
+
+/* NAV BAR */
 
 nav {
   background-color: green;
@@ -37,6 +39,8 @@ a:hover {
   background-color: greenyellow;
 }
 
+/* FOOTER */
+
 .contact-p {
   display: flex;
   justify-content: center;
@@ -46,8 +50,6 @@ a:hover {
 .footer {
   background-color: pink;
   margin: 1rem;
-  position: fixed;
-  bottom: 0;
   width: 95vw;
   padding: 1rem;
 }
@@ -62,4 +64,47 @@ a:hover {
 .footer-link-container {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* HOME */
+
+.buttons {
+  flex-direction: column;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button {
+  margin: 1rem;
+  width: fit-content;
+  padding: 0.5rem;
+}
+
+/* ABOUT */
+
+.profile-picture {
+  margin: 1rem;
+}
+
+img {
+  width: 20rem;
+  border-radius: 10rem;
+}
+
+.about-container {
+  display: flex;
+  background-color: aqua;
+  padding: 2rem;
+  margin: 3rem;
+  justify-content: center;
+}
+
+.about-text {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 2rem;
 }
