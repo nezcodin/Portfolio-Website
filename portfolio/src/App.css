@@ -28,14 +28,14 @@ nav {
   text-align: center;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: black;
   padding: 1rem;
   transition: background-color 0.4s ease-in-out;
 }
 
-a:hover {
+nav a:hover {
   background-color: greenyellow;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 
 /* HOME */
 
-.buttons {
+.home-buttons {
   flex-direction: column;
   margin: 2rem;
   display: flex;
@@ -76,7 +76,7 @@ a:hover {
   align-items: center;
 }
 
-.home-button {
+button {
   margin: 1rem;
   width: fit-content;
   padding: 0.5rem;
@@ -107,4 +107,21 @@ img {
   flex-direction: column;
   align-items: left;
   margin-left: 2rem;
+}
+
+/* PROJECTS */
+
+.project-buttons {
+  flex-direction: column;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
