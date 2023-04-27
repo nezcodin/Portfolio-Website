@@ -128,6 +128,7 @@ button {
   justify-content: center;
   align-items: center;
   font-family: 'Raleway', sans-serif;
+  color: var(--md-sys-color-on-tertiary);
 }
 
 button a {
@@ -140,6 +141,7 @@ button a {
 button:hover {
   background-color: var(--md-sys-color-tertiary-container);
   cursor: pointer;
+  color: var(--md-sys-color-on-tertiary-container);
 }
 
 button:hover a {
@@ -204,4 +206,46 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* CONTACT */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--md-sys-color-secondary);
+  width: 50%;
+  height: 25rem;
+}
+
+.subject {
+  width: 90%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.message {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+  font-family: 'Raleway', sans-serif;
+  padding: 0.5rem;
+}
+
+.contact p {
+  padding-top: 1rem;
 }
