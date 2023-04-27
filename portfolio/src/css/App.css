@@ -1,16 +1,23 @@
+@import url(tokens.css);
+@import url(colors.module.css);
+@import url(typography.module.css);
+@import url(theme.light.css) (prefers-color-scheme: light);
+@import url(theme.dark.css) (prefers-color-scheme: dark);
+
 .app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: gray;
+  background-color: white;
   height: 100%;
   width: 100%;
+  color: var(--md-sys-color-on-secondary-container);
 }
 
 /* NAV BAR */
 
 nav {
-  background-color: green;
+  background-color: var(--md-sys-color-primary);
   margin: 1rem;
   padding: 0.5rem;
   width: 95vw;
@@ -30,13 +37,13 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: black;
   padding: 1rem;
   transition: background-color 0.4s ease-in-out;
+  color: var(--md-sys-color-on-primary);
 }
 
 nav a:hover {
-  background-color: greenyellow;
+  background-color: var(--md-sys-color-primary-container);
 }
 
 /* FOOTER */
@@ -48,10 +55,11 @@ nav a:hover {
 }
 
 .footer {
-  background-color: pink;
+  background-color: var(--md-sys-color-primary);
   margin: 1rem;
   width: 95vw;
   padding: 1rem;
+  color: var(--md-sys-color-on-primary);
 }
 
 .footer-link {
@@ -80,6 +88,36 @@ button {
   margin: 1rem;
   width: fit-content;
   padding: 0.5rem;
+  background-color: var(--md-sys-color-tertiary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button a {
+  color: var(--md-sys-color-on-tertiary);
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--md-sys-color-tertiary-container);
+  cursor: pointer;
+}
+
+button:hover a {
+  color: var(--md-sys-color-on-tertiary-container);
+}
+
+button:hover .icon-arrow {
+  color: var(--md-sys-color-on-tertiary-container);
+}
+
+.icon-arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--md-sys-color-on-tertiary);
+  margin-left: 0.5rem;
 }
 
 /* ABOUT */
@@ -95,7 +133,7 @@ img {
 
 .about-container {
   display: flex;
-  background-color: aqua;
+  background-color: var(--md-sys-color-secondary);
   padding: 2rem;
   margin: 3rem;
   justify-content: center;
@@ -107,6 +145,7 @@ img {
   flex-direction: column;
   align-items: left;
   margin-left: 2rem;
+  color: var(--md-sys-color-on-secondary-container);
 }
 
 /* PROJECTS */

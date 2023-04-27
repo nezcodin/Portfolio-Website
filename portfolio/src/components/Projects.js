@@ -33,7 +33,7 @@ export const Projects = () => {
           <Route path="/projects/the-stalk-market" element={<StalkMarket />} />
         </Routes>
       </div>
-      <p>Only interest in the repositories? They're pinned on my GitHub!</p>
+      <p>Only interested in the repositories? They're pinned on my <a href='https://github.com/nezcodin' target="_blank" rel="noreferrer">GitHub</a>!</p>
     </div>
   )
 }
