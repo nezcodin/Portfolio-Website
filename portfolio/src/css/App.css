@@ -265,7 +265,74 @@ button:hover .icon-arrow {
 
 /* SPECIFIC PROJECT */
 
+.project-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.project-title {
+  text-align: center;
+  margin-bottom: -2rem;
+}
+
+.details-cont {
+  background-color: var(--md-sys-color-secondary);
+  width: 80%;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.screenshot {
+  width: 50%;
+  margin: 2rem;
+}
+
+.scroll-cont {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin: 3rem;
+  margin-top: -1rem;
+}
+
+.screenshots-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--md-sys-color-secondary);
+  width: 80%;
+  margin: 2rem;
+}
+
+.video-demo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  background-color: var(--md-sys-color-secondary);
+  width: 80%;
+}
+
+video {
+  width: 60%;
+  margin: 3rem;
+  margin-top: 0.5rem;
+}
 
 /* RESUME */
 
