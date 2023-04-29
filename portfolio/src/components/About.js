@@ -3,8 +3,8 @@ import profilePicture from '../assets/profile.png'
 export const About = () => {
   return (
     <div className='about-container'>
-      <div className='profile-picture'>
-        <img src={profilePicture} alt='profile' />
+      <div>
+        <img src={profilePicture} alt='profile' className='profile-picture' />
       </div>
       <div className='text-btn-cont'>
         <div className='about-text'>

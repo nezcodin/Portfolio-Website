@@ -4,6 +4,11 @@ import { About } from './About'
 import { Projects } from './Projects'
 import { Resume } from './Resume'
 import { Contact } from './Contact'
+import { Animeto } from './Animeto'
+import { SoundScape } from './SoundScape'
+import { Triviata } from './Triviata'
+import { Hackathon } from './Hackathon'
+import { StalkMarket } from './StalkMarket'
 
 export const NavBar = () => {
   return (
@@ -30,9 +35,14 @@ export const NavBar = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects/" element={<Projects />} />
+        <Route path="/projects/*" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects/animeto" element={<Animeto />} />
+        <Route path="/projects/soundscape" element={<SoundScape />} />
+        <Route path="/projects/triviata" element={<Triviata />} />
+        <Route path="/projects/tick-it-hackathon" element={<Hackathon />} />
+        <Route path="/projects/the-stalk-market" element={<StalkMarket />} />
       </Routes>
     </div>
   )
