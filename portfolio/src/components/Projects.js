@@ -15,7 +15,7 @@ export const Projects = () => {
           <Link to='/projects/triviata'>Triviata</Link>
         </button>
         <button className="project-button">
-          <Link to='/projects/tick-it-hackathon'>Tick-It Hackathon</Link>
+          <Link to='/projects/tick-it-hackathon'>Tick-iT Hackathon</Link>
         </button>
         <button className="project-button">
           <Link to='/projects/the-stalk-market'>The Turnip Stalk Market</Link>
