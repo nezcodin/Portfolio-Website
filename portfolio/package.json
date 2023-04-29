@@ -38,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "@iconify/react": "^4.1.0"
+    "@iconify/react": "^4.1.0",
+    "html-webpack-plugin": "^5.5.1",
+    "source-map-loader": "^4.0.1"
   }
 }

@@ -15,7 +15,13 @@
   width: 100%;
   color: var(--md-sys-color-on-secondary-container);
   font-family: 'Raleway', sans-serif;
+  background-image: url('https://media.tenor.com/M1cPKCGNcIsAAAAM/night-star.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
 }
+
 
 /* NAV BAR */
 
