@@ -239,10 +239,10 @@ button:hover .icon-arrow {
   padding: 1rem;
   background-color: var(--md-sys-color-secondary);
   width: 50%;
-  height: 25rem;
+  height: 35rem;
 }
 
-.subject {
+.contact-input {
   width: 90%;
   margin-bottom: 2rem;
   margin-top: 1rem;
@@ -257,6 +257,7 @@ button:hover .icon-arrow {
   white-space: pre-wrap;
   font-family: 'Raleway', sans-serif;
   padding: 0.5rem;
+  margin-top: 1rem;
 }
 
 .contact p {
